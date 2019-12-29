@@ -1,14 +1,14 @@
 @import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
-@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Marck+Script&display=swap");
 
 /*base-reset, font and colors*/
 
 :root {
   --main-black: rgb(0, 0, 0);
   --main-white: rgb(255, 255, 255);
-  --main-red: rgb(191,10,48);
-  --main-blue: rgb(0,40,104);
-  --main-grey: rgb(241,241,241);
+  --main-red: rgb(191, 10, 48);
+  --main-blue: rgb(0, 40, 104);
+  --main-grey: rgb(241, 241, 241);
 }
 
 * {
@@ -76,7 +76,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--main-white);
+  color: var(--main-grey);
 }
 
 img {
@@ -108,7 +108,7 @@ img {
   display: flex;
 }
 
-.nav-list  a {
+.nav-list a {
   display: block;
   padding: 2rem;
   font-size: 4.5rem;
@@ -125,7 +125,10 @@ img {
   display: flex;
   flex-direction: column;
   background-color: var(--main-grey);
-  background-image: linear-gradient(var(--main-blue) -20%, var(--main-grey) 100%);
+  background-image: linear-gradient(
+    var(--main-blue) -20%,
+    var(--main-grey) 100%
+  );
   height: 100vh;
   width: 100%;
   align-items: center;
@@ -133,17 +136,17 @@ img {
   position: relative;
 }
 
-.container > figure{
+.container > figure {
   position: absolute;
 }
 
-.container > h1{
+.container > h1 {
   position: absolute;
   padding-top: 50rem;
   z-index: 100;
 }
 
-.container > p{
+.container > p {
   z-index: 100;
   position: absolute;
   padding-top: 70rem;
@@ -183,7 +186,6 @@ img {
   width: 100%;
   height: 70vh;
   padding: 0 1rem;
-  
 }
 
 .rsvp-header > h2 {
@@ -208,13 +210,13 @@ img {
 .rsvp-btn {
   display: inline-block;
   padding: 1rem 2rem;
-  transition: transform .3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 i {
   color: var(--dark-red);
   text-shadow: 1px 1px 1px var(--main-brown);
-  transition: transform .3s ease-out, scale .3s ease-in;
+  transition: transform 0.3s ease-out, scale 0.3s ease-in;
 }
 
 .contact-btn:hover {
@@ -222,9 +224,8 @@ i {
 }
 
 .contact-btn:hover i {
- transform: translateX(-4px) scale(1.2);
+  transform: translateX(-4px) scale(1.2);
 }
-
 
 /*footer*/
 
