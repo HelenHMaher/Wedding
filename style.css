@@ -81,6 +81,11 @@ a {
   color: var(--main-black);
 }
 
+img {
+  max-width: 70vw;
+  height: auto;
+}
+
 /*nav*/
 
 .nav {
@@ -143,6 +148,7 @@ a {
 }
 
 #welcome .grid .main-image {
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +161,8 @@ a {
   z-index: 9;
   justify-content: center;
   align-items: center;
+  bottom: 10px;
+
 }
 
 /*topics-section*/
