@@ -139,9 +139,9 @@ img {
   position: relative;
 }
 
-.container > figure {
+#main-image {
   position: absolute;
-  max-height: 100vh;
+  height: 80vh;
 }
 
 .container > h1 {
