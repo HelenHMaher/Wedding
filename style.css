@@ -139,19 +139,18 @@ img {
   position: relative;
 }
 
-#main-image {
-  width: 100%;
-  height: auto;
+#welcome .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 40vw;
 }
 
-.welcome > h1 {
-  padding-top: 10rem;
-  z-index: 9;
+#welcome .main-image {
 }
 
-.welcome > p {
-  font-size: 3.5rem;
-  color: var(--main-white);
+#welcome .email {
 }
 
 /*topics-section*/
