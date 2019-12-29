@@ -1,4 +1,5 @@
 @import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Marck+Script&display=swap");
 
 /*base-reset, font and colors*/
@@ -48,21 +49,21 @@ html {
 /*base styles*/
 
 body {
-  font-family: "arial", sans-serif;
+  font-family: "raleway", sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: var(--main-white);
+  color: var(--main-black);
 }
 
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
 h1 {
-  font-size: 15rem;
+  font-size: 10rem;
   font-family: "Marck Script", sans-serif;
-  font-weight: lighter;
   text-shadow: 1px 1px 2px var(--main-black);
 }
 
