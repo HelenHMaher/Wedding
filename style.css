@@ -140,13 +140,14 @@ img {
 
 #welcome .grid .title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 70vh;
   width: 40vw;
 }
 
-#welcome .grid .main-image #main-image {
+#welcome .grid .main-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,12 +155,17 @@ img {
   width: 60vw;
 }
 
+#main-image {
+  max-height: 100%;
+  width: auto;
+}
+
 #welcome .grid .email {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-  width: 40vw;
+  height: 300vh;
+  width: 100vw;
 }
 
 /*topics-section*/
