@@ -83,7 +83,6 @@ a {
 
 img {
   display: block;
-  margin: auto;
 }
 
 /*nav*/
@@ -153,11 +152,6 @@ img {
   align-items: center;
   height: 70vh;
   width: 60vw;
-}
-
-#main-image {
-  max-height: 50%;
-  width: auto;
 }
 
 #welcome .grid .email {
