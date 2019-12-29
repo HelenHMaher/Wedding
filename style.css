@@ -141,7 +141,7 @@ img {
 
 #main-image {
   position: absolute;
-  max-height: 100vh;
+  height: 50vh;
   width: auto;
 }
 
