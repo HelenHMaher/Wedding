@@ -62,7 +62,7 @@ h3 {
 }
 
 h1 {
-  font-size: 10rem;
+  font-size: 5rem;
   font-family: "Marck Script", sans-serif;
   color: var(--main-white);
 }
@@ -126,21 +126,16 @@ img {
 
 .welcome {
   display: flex;
-  flex-direction: column;
   background-color: var(--main-grey);
   background-image: linear-gradient(
-    var(--main-blue) -20%,
+    var(--main-blue) 0%,
     var(--main-grey) 100%
   );
   height: 100vh;
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 }
 
 #welcome .title {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
@@ -148,9 +143,17 @@ img {
 }
 
 #welcome .main-image {
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 60vw;
 }
 
 #welcome .email {
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 40vw;
 }
 
 /*topics-section*/
