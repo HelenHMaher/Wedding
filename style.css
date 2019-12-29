@@ -124,7 +124,7 @@ img {
 
 /*welcome-section*/
 
-.container {
+.welcome {
   display: flex;
   flex-direction: column;
   background-color: var(--main-grey);
@@ -140,21 +140,16 @@ img {
 }
 
 #main-image {
-  position: absolute;
-  max-width: 80%;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
-.container > h1 {
-  position: absolute;
-  padding-top: 50rem;
-  z-index: 100;
+.welcome > h1 {
+  padding-top: 10rem;
+  z-index: 9;
 }
 
-.container > p {
-  z-index: 100;
-  position: absolute;
-  padding-top: 70rem;
+.welcome > p {
   font-size: 3.5rem;
   color: var(--main-white);
 }
