@@ -88,6 +88,15 @@ img {
   width: auto;
 }
 
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  border: 2px var(--main-black) solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 /*nav*/
 
 .nav {
@@ -163,9 +172,14 @@ img {
   z-index: 9;
   left: 10px;
   bottom: 10px;
-
 }
 
+#welcome input[type="email"] {
+  max-width: 350px;
+  width: 100%;
+  height: 30px;
+  padding: 10px; 
+}
 /*topics-section*/
 
 .topics {
