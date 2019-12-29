@@ -135,21 +135,28 @@ img {
   width: 100%;
 }
 
-#welcome .title {
+.welcome .grid {
+  display: flex;
+}
+
+#welcome .grid .title {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
   width: 40vw;
 }
 
-#welcome .main-image {
+#welcome .grid .main-image {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
   width: 60vw;
 }
 
-#welcome .email {
+#welcome .grid .email {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 70vh;
