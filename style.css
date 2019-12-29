@@ -64,8 +64,8 @@ h3 {
 h1 {
   font-size: 10rem;
   font-family: "Marck Script", sans-serif;
-  color: var(--main-grey);
-  text-shadow: 1px 1px 2px var(--main-black);
+  color: var(--main-white);
+  text-shadow: 1px 1px 2px var(--main-grey);
 }
 
 h2 {
@@ -84,7 +84,6 @@ a {
 
 img {
   display: block;
-  width: 100%;
 }
 
 /*nav*/
