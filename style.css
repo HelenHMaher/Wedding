@@ -81,10 +81,6 @@ a {
   color: var(--main-black);
 }
 
-img {
-  display: block;
-}
-
 /*nav*/
 
 .nav {
@@ -154,12 +150,11 @@ img {
   width: 60vw;
 }
 
-#welcome .grid .email {
-  display: flex;
+#welcome .email {
+  position: absolute;
+  z-index: 9;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  width: 100vw;
 }
 
 /*topics-section*/
