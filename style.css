@@ -173,6 +173,7 @@ img {
   z-index: 9;
   left: 10px;
   bottom: 10px;
+  width: 100vw;
 }
 
 #welcome input[type="email"] {
