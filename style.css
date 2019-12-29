@@ -82,8 +82,8 @@ a {
 }
 
 img {
-  max-width: 70vw;
-  height: auto;
+  border: 1px var(--main-black) solid;
+  border-radius: 2px;
 }
 
 /*nav*/
@@ -147,7 +147,7 @@ img {
   width: 40vw;
 }
 
-#welcome .grid .main-image {
+#welcome > img {
   z-index: 1;
   display: flex;
   justify-content: center;
