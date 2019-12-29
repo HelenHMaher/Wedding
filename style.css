@@ -65,7 +65,6 @@ h1 {
   font-size: 10rem;
   font-family: "Marck Script", sans-serif;
   color: var(--main-white);
-  text-shadow: 1px 1px 2px var(--main-grey);
 }
 
 h2 {
@@ -117,7 +116,7 @@ img {
   display: block;
   padding: 2rem;
   font-size: 4.5rem;
-  text-shadow: 1px 1px 2px var(--main-black);
+  color: var(--main-white);
 }
 
 .nav-list a:hover {
