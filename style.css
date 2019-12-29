@@ -83,7 +83,7 @@ a {
 
 img {
   display: block;
-  height: auto;
+  max-height: 100%;
   margin: auto;
 }
 
