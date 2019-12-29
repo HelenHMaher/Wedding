@@ -83,7 +83,7 @@ a {
 
 img {
   border: 1px var(--main-black) solid;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 /*nav*/
@@ -138,7 +138,7 @@ img {
   display: flex;
 }
 
-#welcome .grid .title {
+.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,11 +156,10 @@ img {
   width: 60vw;
 }
 
-#welcome .email {
+.email {
   position: absolute;
   z-index: 9;
-  justify-content: center;
-  align-items: center;
+  left: 10px;
   bottom: 10px;
 
 }
