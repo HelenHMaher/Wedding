@@ -127,11 +127,12 @@ img {
 .nav > ul {
   display: flex;
   font-family: "Marck Script", sans-serif;
+  font-weight: lighter;
 }
 
 .nav-list a {
   display: block;
-  padding: 2rem;
+  padding: 2.5rem;
   font-size: 4.5rem;
   color: var(--main-white);
 }
