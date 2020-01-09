@@ -82,8 +82,6 @@ a {
 }
 
 img {
-  border: 1px var(--main-black) solid;
-  border-radius: 5px;
   max-height: 100vh;
   width: auto;
 }
@@ -145,10 +143,7 @@ img {
 .welcome {
   display: flex;
   background-color: var(--main-grey);
-  background-image: linear-gradient(
-    var(--main-blue) 0%,
-    var(--main-grey) 100%
-  );
+  background-image: linear-gradient(var(--main-blue) 0%, var(--main-grey) 100%);
   height: 100vh;
   width: 100%;
 }
@@ -205,8 +200,6 @@ img {
 }
 
 /*rsvp-section*/
-
-
 
 /*footer*/
 
