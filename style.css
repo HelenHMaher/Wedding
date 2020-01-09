@@ -146,13 +146,13 @@ img {
 
 @media (max-width: 980px) {
   #roseicon {
-    height: 50px;
+    height: 35px;
   }
 }
 
 @media (max-width: 1200px) {
   #roseicon {
-    height: 80px;
+    height: 50px;
   }
 }
 
