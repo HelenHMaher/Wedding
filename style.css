@@ -124,18 +124,19 @@ img {
   }
 }
 
-@media (max-width: 600px) {
-  .nav > ul {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-}
-
 .nav > ul {
   display: flex;
   font-family: "Marck Script", sans-serif;
   font-weight: lighter;
+}
+
+@media (max-width: 600px) {
+  .nav > ul {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .nav-list a {
