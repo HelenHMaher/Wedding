@@ -118,7 +118,7 @@ img {
   justify-content: flex-end;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .nav > ul {
     flex-direction: column;
     justify-content: center;
