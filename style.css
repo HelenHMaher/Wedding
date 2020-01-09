@@ -128,8 +128,7 @@ img {
 @media (max-width: 600px) {
   .nav > ul {
     flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
+    align-content: center;
     width: 100%;
   }
 }
