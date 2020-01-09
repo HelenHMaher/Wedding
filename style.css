@@ -138,10 +138,29 @@ img {
   background-color: var(--main-blue);
 }
 
+@media (max-width: 460px) {
+  #roseicon {
+    height: 45px;
+  }
+}
+
+@media (max-width: 980px) {
+  #roseicon {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #roseicon {
+    height: 120px;
+  }
+}
+
 /*welcome-section*/
 
 .welcome {
   display: flex;
+  align-items: center;
   background-color: var(--main-grey);
   background-image: linear-gradient(var(--main-blue) 0%, var(--main-grey) 100%);
   height: 100vh;
