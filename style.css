@@ -107,6 +107,7 @@ img {
 
 .nav {
   background-color: var(--main-red);
+  flex-direction: column;
   display: flex;
   position: fixed;
   align-items: center;
@@ -118,7 +119,7 @@ img {
   justify-content: flex-end;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
   .nav {
     flex-direction: column;
   }
