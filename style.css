@@ -129,6 +129,7 @@ img {
   .nav > ul {
     flex-direction: column;
     align-items: stretch;
+    justify-content: center;
     width: 100%;
   }
 }
