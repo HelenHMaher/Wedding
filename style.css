@@ -140,19 +140,19 @@ img {
 
 @media (max-width: 460px) {
   #roseicon {
-    height: 45px;
+    height: 20px;
   }
 }
 
 @media (max-width: 980px) {
   #roseicon {
-    height: 80px;
+    height: 50px;
   }
 }
 
 @media (max-width: 1200px) {
   #roseicon {
-    height: 120px;
+    height: 80px;
   }
 }
 
