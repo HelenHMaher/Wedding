@@ -126,6 +126,7 @@ img {
 
 .nav > ul {
   display: flex;
+  font-family: "Marck Script", sans-serif;
 }
 
 .nav-list a {
