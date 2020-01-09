@@ -120,7 +120,6 @@ img {
 
 @media (max-width: 600px) {
   .nav {
-    justify-content: center;
     position: relative;
   }
 }
