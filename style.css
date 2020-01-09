@@ -119,9 +119,15 @@ img {
 }
 
 @media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+    position: relative;
+  }
+}
+
+@media (max-width: 600px) {
   .nav > ul {
     flex-direction: column;
-    justify-content: center;
   }
 }
 
