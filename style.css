@@ -207,6 +207,7 @@ img {
   .email {
     justify-content: center;
     align-items: stretch;
+    width: 100vw;
   }
 }
 
