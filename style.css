@@ -190,6 +190,7 @@ img {
 }
 
 .email {
+  display: flex;
   position: absolute;
   z-index: 9;
   left: 10px;
