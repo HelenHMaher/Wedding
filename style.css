@@ -170,7 +170,7 @@ img {
 }
 
 .title {
-  display: flex;
+  position: absolute;
   z-index: 2;
   flex-direction: column;
   justify-content: center;
