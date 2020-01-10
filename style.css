@@ -197,7 +197,7 @@ img {
   width: 100vw;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
   .title {
     width: 20vw;
   }
