@@ -195,6 +195,7 @@ img {
   left: 10px;
   bottom: 10px;
   width: 40vw;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -208,11 +209,6 @@ img {
     text-align: center;
     align-items: stretch;
     width: 100vw;
-  }
-}
-@media (max-width: 1200px) {
-  .email {
-    width: 35vw;
   }
 }
 
