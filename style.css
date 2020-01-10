@@ -184,7 +184,7 @@ img {
   border-radius: 0px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   top: 6.7rem;
   height: 70vh;
 }
