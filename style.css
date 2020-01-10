@@ -175,7 +175,7 @@ img {
   align-items: center;
   background-color: var(--main-grey);
   background-image: linear-gradient(var(--main-blue) 0%, var(--main-grey) 100%);
-  height: 70vh;
+  height: 100vh;
   width: 40vw;
 }
 
@@ -194,7 +194,7 @@ img {
   z-index: 9;
   left: 10px;
   bottom: 10px;
-  width: 100vw;
+  width: 40vw;
 }
 
 @media (max-width: 1200px) {
