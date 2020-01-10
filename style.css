@@ -182,6 +182,7 @@ img {
   z-index: 1;
   border-radius: 0px;
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
   height: 70vh;
@@ -191,7 +192,6 @@ img {
 .email {
   position: absolute;
   z-index: 9;
-  display: block;
   left: 10px;
   bottom: 10px;
   width: 100vw;
