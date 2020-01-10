@@ -198,6 +198,7 @@ img {
   position: absolute;
   z-index: 9;
   width: 40vw;
+  bottom: 10px;
 }
 
 #email {
