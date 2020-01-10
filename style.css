@@ -195,7 +195,7 @@ img {
   left: 10px;
   bottom: 10px;
   width: 40vw;
-  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1200px) {
