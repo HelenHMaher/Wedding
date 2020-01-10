@@ -171,6 +171,7 @@ img {
 
 .title {
   display: flex;
+  z-index: 2;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -182,7 +183,6 @@ img {
   z-index: 1;
   border-radius: 0px;
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
   height: 70vh;
