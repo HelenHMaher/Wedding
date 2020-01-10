@@ -191,9 +191,17 @@ img {
 .email {
   position: absolute;
   z-index: 9;
+  display: block;
   left: 10px;
   bottom: 10px;
   width: 100vw;
+}
+
+@media (max-width: 600px) {
+  .email {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*topics-section*/
