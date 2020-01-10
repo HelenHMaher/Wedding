@@ -192,8 +192,8 @@ img {
   position: absolute;
   z-index: 9;
   display: block;
-  left: 10px;
-  bottom: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   width: 100vw;
 }
 
