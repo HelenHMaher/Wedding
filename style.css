@@ -183,10 +183,9 @@ img {
   z-index: 1;
   border-radius: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 70vh;
-  width: 60vw;
 }
 
 .email {
