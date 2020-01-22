@@ -1,2 +1,3 @@
 # Wedding
-Privat and Florence's Wedding
+
+Wedding Website
